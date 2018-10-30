@@ -12,6 +12,11 @@ a {
     color: #A64755;
     text-decoration: none;
 }
+.exergue {
+    font-size: larger;
+    color: #A64755;
+    font-weight: bold;
+}
 
 /* citation */
 .citation {
