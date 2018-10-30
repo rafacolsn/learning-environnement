@@ -1,0 +1,22 @@
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cabin', cursive;
+  color: #46817F;
+}
+body {
+  background-color: #FFFFE0;
+  color: #412114;
+  font-family: 'Abel';
+}
+
+a[href] {
+  color:#46817F;
+}
+.fond-code {
+  background-color: #DADAD9;
+}
