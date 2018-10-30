@@ -2,13 +2,17 @@ h1, h2, h3, h4, p{
     padding: 0;
     margin: 0;
 }
-
+/* un reset des marges */
 body {
     font-family: 'Roboto', sans-serif;
-
     color : #25000A;
     margin: 0;
 }
+a {
+    color: #A64755;
+    text-decoration: none;
+}
+/* début du header */
 header {
     background-image: url('/home/raph/Bureau/BeCode/BeCode_projects/site web ecole/images/neonbrand-426918-unsplash (1).jpg');
     background-size: 100vw auto;
@@ -16,105 +20,111 @@ header {
     height : 15em;
     background-position: center;
     position: relative;
-
-
 }
-h2 {
-    font-family: 'Space Mono', monospace;
-    background-color: #fbb300;
-    color: white;
-    padding-left: 20px;
-}
-
 .logo img {
     height: 80px;
 }
-
 .header-phrase {
     color: white;
     bottom: 0;
     right: 10px;
     position: absolute;
-
 }
-
 .header-phrase p {
     margin: auto;
-    background-color: #282828;
-    opacity: 0.7;
+    background-color: #fab200b5;
     border-radius: 8px 8px 0 0;
     padding: 5px 10px;
 }
+/* fin du header */
+
+/* début du menu de navigation */
  nav {
      display: flex;
-     background-color: #A64755;
-
+     margin-top: 3em;
  }
  .menu-container {
-     margin: 20px auto;
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-column-gap: 100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    background-color: #fab200;
+    border-radius: 50px;
+    padding: 1em 2em;
+ }
+ .menu-container a:hover {
+     color: #fab200;
  }
  .menu-item {
-    display: flex;
-    flex-direction: column;
-    margin: auto 0;
-    background-color: #C1B5AC;
-    padding: 15px 20px;
-    border-radius: 5px;
-    align-items: center;
+     display: flex;
+     flex-direction: column;
+     background-color: #fff;
+     padding: 33px 22px;
+     border-radius: 56px;
+     align-items: center;
 }
+ .menu-item p {
+     margin-top: 1em;
+     text-align: center;
+ }
+/* fin du menu */
 
-.menu-item a {
-    color: #A64755;
-    text-decoration: none;
-
+/* titres de section */
+h2 {
+    font-family: 'Space Mono', monospace;
+    background-color: #a64755;
+    color: white;
+    font-weight: lighter;
+    padding-left: 1em;
+    margin: 3em 0 2em 1em;
+    width: 61%;
+    border-radius: 20px;
 }
-.menu-item a:hover {
-    color: #fbb300;
-}
+/* titres de section */
 
-.menu-item i {
-
-}
-.header-phrase {
-
-}
-
-.services {
-
-}
-
-
-.projet-etablissement {
-
-}
-
+/* paragraphes */
 .wrapped-text {
+    margin: 0 0 0 2em;
+    width: 90%;
+    text-align:justify;
+}
+.wrapped-text p {
+    margin-bottom: 1em;
+    color: #636060;
+}
+.wrapped-text h4 {
+    color: #fab200;
+    margin: 2em 0 1em;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    background-color: #a647550f;
+}
+/* fin des paragraphes */
+
+/* début du footer */
+footer {
+    margin-top: 4em;
+    background-color: #636060;
+    color: white;
+    padding: 1em 1em;
 
 }
-
-.activites {
-
-}
-
-.article {
-
-}
-
-.equipe {
-
-}
-
 .nom-ecole {
-
+    float: left;
 }
-
 .contact {
-
+    float: right;
+    padding-left: 2em;
 }
-
 .copyright {
-
+    padding-top: 2em;
+    text-align: center;
+}
+.copyright a {
+    color: #fab200;
+}
+.copyright a:hover {
+    color: #A64755;
 }
